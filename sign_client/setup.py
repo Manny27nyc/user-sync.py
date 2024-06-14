@@ -39,7 +39,7 @@ setup(name='sign-client',
       license='MIT',
       packages=find_packages(),
       install_requires=[
-        "requests~=2.26.0",
-        "aiohttp~=3.8.1",
+        "requests>=2.26,<2.33",
+        "aiohttp>=3.8.1,<3.10.0",
       ],
       zip_safe=False)
